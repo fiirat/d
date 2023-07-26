@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    background-color: #0a0908;
+    color: white;
+    height: 100vh;
+}
+
+
+main{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+.album-container{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.album-info{
+    margin-left: 20px;
+}
